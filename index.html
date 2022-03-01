@@ -34,32 +34,45 @@
             <section class="detalhesConta">
                 <div class="container">
                     <div class="detalhesConta_usuario">
-                        <img src="./img/usuario.png" alt="icone do usuario">
-                        <p>Olá, <strong>@sarahrubia</strong></p>
+                        <div class="detalhesConta_usuario--nome">
+                            <img src="./img/usuario.png" alt="icone do usuario">
+                            <p>Olá, <strong>@sarahrubia</strong></p>
+                        </div>
+                        <div class="detalhesConta_usuario--icones">
+                            <img src="./img/presente.png" alt="ícone de presente">
+                            <img src="./img/chat.png" alt="ícone de chat">
+                        </div> 
                     </div>
                     
+                    
                     <div class="detalhesConta_saldo">
-                        <p>Saldo PicPay <strong>R$0,00</strong></p>
+                        <div>
+                            <p>Saldo PicPay</p>
+                            <div class="detalhesConta_saldoVisualizar">
+                                <p><strong>R$ 1.000,00</strong></p> 
+                                <img src="./img/visualizar.png" alt="ícone de visualizar">
+                            </div>
+                        </div>
                         <button>Extrato</button>
                     </div>
                     
 
                     <div class="secaoTransacoes">
                         <ul class="secaoTransacoes_lista">
-                            <li class="secaoTransacoes_itemTransacao">
+                            <li class="secaoTransacoes_itemTransacao" id="1">
                                 <img src="./img/qrcode.png" alt="ícone qr code">
                                 <p>QR Code</p>
                             </li>
 
-                            <li class="secaoTransacoes_itemTransacao">
+                            <li class="secaoTransacoes_itemTransacao" id="2">
                                 <img src="./img/pix.png" alt="ícone pix">
                                 <p>Pix</p>
                             </li>
-                            <li class="secaoTransacoes_itemTransacao">
+                            <li class="secaoTransacoes_itemTransacao" id="3">
                                 <img src="./img/codigo.png" alt="ícone pagar boleto">
                                 <p>Pagar Boleto</p>
                             </li>
-                            <li class="secaoTransacoes_itemTransacao">
+                            <li class="secaoTransacoes_itemTransacao" id="4">
                                 <img src="./img/cobrar-icon.png" alt="ícone cobrar">
                                 <p>Cobrar</p>
                             </li>
@@ -71,59 +84,58 @@
             
             
             <section class="secaoTransacao">
-                <div class="container">
 
-                    <!--div geral-->
-                    <div class="selecao_container">
+                <!--div geral-->
+                <div class="selecao_container">
 
-                        <!-- div selecione a forma de pagamento -->
-                        <div class="secaoTransacao_selecionePagamento">
-                            <p>Selecione a forma de pagamento</p>
-                            <img src="./img/banner.png" alt="banner do picpay">
+                    <!-- div selecione a forma de pagamento -->
+                    <div class="secaoTransacao_selecionePagamento mostrar">
+                        <p>Selecione a forma de pagamento</p>
+                        <img src="./img/banner.png" alt="banner do picpay">
+                    </div>
+
+                    <!--div do qr code-->
+                    <div  data-id="1" class="secaoTransacao_qrcode">
+                        <img src="./img/qrcode_icon.png" alt="imagem qr code">
+                        <p>@sarahrubia</p>
+                        <button>Cobre um amigo</button>
+                        <a href="#">Compartilhar meu código</a>
+
+                    </div>
+
+                    <!--div do pix-->
+                    <div  data-id="2" class="secaoTransacao_pix">
+
+                        <img src="./img/pix-logo.png" alt="logo pix">
+                        <div class="secaoTransacao__boxOpcao">
+                            <img  src="./img/pix1.png" alt="ícone opção pix">
+                            <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
                         </div>
 
-                        <!--div do qr code-->
-                        <div class="secaoTransacao_qrcode">
-                            <img src="./img/qrcode_icon.png" alt="imagem qr code">
-                            <p>@sarahrubia</p>
-                            <button>Cobre um amigo</button>
-                            <a href="#">Compartilhar meu código</a>
-
+                        <div class="secaoTransacao__boxOpcao">
+                            <img src="./img/pix2.png" alt="ícone opção código pix">
+                            <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
                         </div>
 
-                        <!--div do pix-->
-                        <div class="secaoTransacao_pix">
-                            <img src="./img/pix-logo.png" alt="logo pix">
-                            <div class="secaoTransacao__boxOpcao">
-                                <img src="./img/pix1.png" alt="ícone opção pix">
-                                <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
-                            </div>
+                    </div>
 
-                            <div class="secaoTransacao__boxOpcao">
-                                <img src="./img/pix2.png" alt="ícone opção código pix">
-                                <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
-                            </div>
+                    <!--div do boleto-->
+                    <div  data-id="3" class="secaoTransacao__boleto">
+                        <img src="./img/boleto.png" alt="ícone do boleto">
+                        <h2>Pagar com código de barras</h2>
+                        <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista</p>
+                        <input type="text" placeholder="Insira o código de barras">
 
-                        </div>
+                    </div>
 
-                        <!--div do boleto-->
-                        <div class="secaoTransacao__boleto">
-                            <img src="./img/boleto.png" alt="ícone do boleto">
-                            <h2>Pagar com código de barras</h2>
-                            <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista</p>
-                            <input type="text" placeholder="Insira o código de barras">
-
-                        </div>
-
-                        <!--div de cobrar-->
-                        <div class="secaoTransacao__cobrar">
-                            <img src="./img/cobrar.png" alt="ícone de cobrança">
-                            <h2>Cobrar</h2>
-                            <p>Divida a conta com os amigos de forma fácil!</p>
-                            <div class="secaoTransacao__boxOpcao">
-                                <img src="./img/picpay-icon.png" alt="ícone picpay">
-                                <p><strong>Amigos no PicPay</strong> Divida e acompanhe um gasto com pessoas por aqui.</p>               
-                            </div>
+                    <!--div de cobrar-->
+                    <div  data-id="4" class="secaoTransacao__cobrar">
+                        <img src="./img/cobrar.png" alt="ícone de cobrança">
+                        <h2>Cobrar</h2>
+                        <p>Divida a conta com os amigos de forma fácil!</p>
+                        <div class="secaoTransacao__boxOpcao">
+                            <img src="./img/picpay-icon.png" alt="ícone picpay">
+                            <p><strong>Amigos no PicPay</strong> Divida e acompanhe um gasto com pessoas por aqui.</p>               
                         </div>
                     </div>
                 </div>
@@ -164,5 +176,6 @@
             </div>
         </footer>  
 
+    <script src="./js/script.js"></script>
 </body>
 </html>
