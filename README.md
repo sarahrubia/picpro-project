@@ -8,7 +8,8 @@ O objetivo foi criar uma carteira digital da PicPay para gerenciar transações 
 
 ## Layout do projeto
 
-![Texto alternativo](/path/to/img.jpg "Título opcional")
+![Layout 1](https://github.com/sarahrubia/picpro_project/blob/master/img/layout/picpro1.png)
+![Layout 2](https://github.com/sarahrubia/picpro_project/blob/master/img/layout/picpro2.png)
 
 ### Interaja com o projeto
 
@@ -66,6 +67,6 @@ O objetivo foi criar uma carteira digital da PicPay para gerenciar transações 
 
 **Sarah Rúbia de Oliveira Santos**
 
-Linkedin: https://www.linkedin.com/in/sarahrubia/
+Linkedin: https://www.linkedin.com/in/sarahrubia/ <br>
 e-mail: sarahrubia22@gmail.com
 
