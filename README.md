@@ -1,20 +1,31 @@
 # Projeto PicPro + Kenzie Academy
 
-Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie Academy Brasil em parceria com o PicPay.
+## Sobre o projeto
 
-## O projeto
+Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da **Kenzie Academy Brasil** em parceria com o **PicPay**.
+
+O objetivo foi criar uma carteira digital da PicPay para gerenciar transações financeiras, com campos de usuário e formas de selecionar pagamento. No projeto tive a chance de aplicar todas as habilidades, princípios e conceitos que aprendi no curso: **HTML**, **CSS** e **JavaScript**, além de noções sobre como estruturar um layout e posicionar elementos com Flexbox.
+
+## Layout do projeto
+
+![Texto alternativo](/path/to/img.jpg "Título opcional")
+
+### Interaja com o projeto
+
+[Github pages](https://sarahrubia.github.io/picpro_project/)
 
 ### Estrutura de arquivos
 
 - README.md
 - index.html
-- /assets
-  - /img
-  - /css
+- /css
     - style.css
-  - /js
+- /img
+    - /layout
+- /js
     - script.js
-
+    
+    
 ### Fonte
 
 - 'Poppins', sans-serif;
@@ -34,9 +45,13 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 
 - box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 
-## Layout
 
-- [PicPro](./assets/img/layout.png)
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- Fontes do Google
 
 ## Referências
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
@@ -46,3 +61,11 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 - [Paletton](https://paletton.com/)
 - [W3Schools propriedades CSS no DOM](https://www.w3schools.com/jsref/dom_obj_style.asp)
 - [MDN lista de eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+## Autoria
+
+**Sarah Rúbia de Oliveira Santos**
+
+Linkedin: https://www.linkedin.com/in/sarahrubia/
+e-mail: sarahrubia22@gmail.com
+
